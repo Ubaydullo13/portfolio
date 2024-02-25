@@ -1,0 +1,6 @@
+.appWrapper {
+  max-width: 1110px;
+  margin: 10px auto 0; 
+  background-color: var(--main-color) ;
+  padding: 32px 40px;
+}

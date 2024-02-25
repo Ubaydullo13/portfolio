@@ -1,0 +1,28 @@
+:root{
+  --primary-color: #000;
+  --main-color: #fff;
+  --desc-color:#6B6868;
+  --toggle-bg-color:rgba(31,48,64,1);
+}
+
+[data-theme="dark"] {
+--primary-color: #fff;
+--main-color: #2c2a2a;
+--desc-color:#fff;
+--toggle-bg-color:rgb(227, 230, 234);
+}
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: linear-gradient(90deg, rgba(31,48,64,1) 50%, rgba(255,148,66,1) 50%);
+  font-weight: 700;
+}
